@@ -3,6 +3,7 @@
 ## Description
 This application is command-line application using Node.js that takes in information and an HTML file is generated that displays
 
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -23,6 +24,7 @@ Copy the repo URL. Clone into the repo. Run the following command: node index.js
 * JavaScript
 * Node.js
 * Jest
+* Npm
 
 ## Live URL
 
