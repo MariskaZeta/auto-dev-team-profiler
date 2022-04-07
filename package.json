@@ -1,0 +1,22 @@
+{
+  "name": "auto-dev-team-profiler",
+  "version": "1.0.0",
+  "description": "## Description This application is command-line application using Node.js that takes in information and an HTML file is generated that displays",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariskaZeta/auto-dev-team-profiler.git"
+  },
+  "author": "Madison Kendall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariskaZeta/auto-dev-team-profiler/issues"
+  },
+  "homepage": "https://github.com/MariskaZeta/auto-dev-team-profiler#readme"
+}
