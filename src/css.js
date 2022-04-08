@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #d1e0e0;
 }
 .banner-bar {
     background-color: #808a87;

@@ -1,3 +1,4 @@
+// Imports from the Manager class
 const Manager = require("../lib/Manager");
 
 test("Can set office number via constructor argument", () => {
@@ -18,4 +19,4 @@ test("Can get office number via getOffice()", () => {
   expect(e.getOfficeNumber()).toBe(testValue);
 });
 
-// all tests passed 
+// all tests passed
