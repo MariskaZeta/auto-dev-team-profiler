@@ -15,7 +15,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    margin-top: 0px;
+    line-height: 75%;
 }
 h1 {
     font-family: avenir;
@@ -31,6 +32,7 @@ h2 {
     position: relative;
     font-size: 17px;
     left: 12px;
+    color: #ffffff;
 }
 .member-card {
     width: 250px;
