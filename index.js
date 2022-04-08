@@ -126,8 +126,7 @@ function addIntern() {
 function createTeam() {
 
   const htmlArray = []
-  const htmlBeginning = `
-    <!DOCTYPE html>
+  const htmlBeginning = `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -157,7 +156,7 @@ function createTeam() {
             </div>
             <div class="card-bottom">
                 <p>Employee ID: ${employees[i].id}</p>
-                <p>Email: <a href="mailto:${employees[i].email}">${employees[i].email}</a>></p>
+                <p>Email: <a href="mailto:${employees[i].email}">${employees[i].email}</a></p>
         `
     if (employees[i].officeNumber) {
       object += `

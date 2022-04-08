@@ -60,3 +60,5 @@ h2 {
     align-content: center;
 }
 `
+
+module.exports = style;
