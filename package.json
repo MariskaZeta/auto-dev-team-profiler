@@ -21,5 +21,8 @@
   "homepage": "https://github.com/MariskaZeta/auto-dev-team-profiler#readme",
   "devDependencies": {
     "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.2"
   }
 }
