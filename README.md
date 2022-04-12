@@ -14,10 +14,10 @@ This application is a back end application using Node.js. It uses the inquirer n
 
 
 ## Installation
-Copy the repo URL. Clone into the repo. Run the following command: node index.js.
+To install this application, first, branch the Github Repo and clone the repo to your local machine. Then, you will need to install the node dependencies which can be done by running the npm install command in your terminal/bash shell. Once this has been completed, you are ready to use the application!
 
 ## Usage
-The user needs to install all the dependencies using the "npm install" or "npm i" after that the user can run the app in the node environment using the command "node index.js" and the user will be prompted with question to build his team. The choices are Manager, Engineer and Intern.
+After installation the user can run the app in the node environment using the command "node index.js" and the user will be prompted with questions to build his team. The choices are Manager, Engineer and Intern.
 
 ## Technologies
 * JavaScript
