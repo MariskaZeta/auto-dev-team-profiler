@@ -1,7 +1,7 @@
 # auto-dev-team-profiler
 
 ## Description
-This application is a back end application using Node.js. It uses the inquirer npm package to get the user input to dynamically create a team profile. Users will go through questions about the type of employee that will be added to the team.  After the user has finished the questions, an HTML file will be generated under the /dist folder.
+This application is a back end application using Node.js. It uses the inquirer npm package to get the user input to dynamically create a team profile. Users will go through questions about the type of employee that will be added to the team.  After the user has finished the questions, an HTML file will be generated under the /dist folder. You can then view your generated Dev Team page in your browser!
 
 ## Table of Contents
 
