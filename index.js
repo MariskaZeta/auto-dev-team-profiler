@@ -41,7 +41,7 @@ function addManager() {
       const name = data.name
       const id = 1
       const email = data.email
-      const officeNumber = data.getOfficeNumber
+      const officeNumber = data.officeNumber
       const teamMember = new Manager(name, id, email, officeNumber)
       employees.push(teamMember)
       addDevs();
@@ -84,15 +84,15 @@ function addEngineer() {
       },
       {
         message: "Please enter the engineer's GitHub username.",
-        name: "gitHubUsername"
+        name: "github"
       }
     ])
     .then(function(data) {
       const name = data.name
       const id = employees.length + 1
       const email = data.email
-      const gitHub = data.gitHubUsername
-      const teamMember = new Engineer(name, id, email, gitHub)
+      const github = data.github
+      const teamMember = new Engineer(name, id, email, github)
       employees.push(teamMember)
       addDevs()
     });
@@ -160,12 +160,12 @@ function createTeam() {
         `
     if (employees[i].officeNumber) {
       object += `
-            <p>${employees[i].officeNumber}</p>
+            <p>Office Number: ${employees[i].officeNumber}</p>
             `
     }
-    if (employees[i].gitHubUsername) {
+    if (employees[i].github) {
       object += `
-            <p>GitHub: <a href="https://github.com/${employees[i].gitHubUsername}">${employees[i].gitHubUsername}</a></p>
+            <p>GitHub: <a href="https://github.com/${employees[i].github}">${employees[i].github}</a></p>
             `
     }
     if (employees[i].school) {
