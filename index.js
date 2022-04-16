@@ -27,6 +27,10 @@ function addManager() {
         name: "name"
       },
       {
+        message: "Please enter your manager's ID number.",
+        name: "id"
+      },
+      {
         message: "Please enter your manager's email address.",
         name: "email"
       },
@@ -39,7 +43,7 @@ function addManager() {
 
     .then(function(data) {
       const name = data.name
-      const id = 1
+      const id = data.id
       const email = data.email
       const officeNumber = data.officeNumber
       const teamMember = new Manager(name, id, email, officeNumber)
@@ -79,6 +83,10 @@ function addEngineer() {
         name: "name"
       },
       {
+        message: "Please enter the engineer's ID number.",
+        name: "id"
+      },
+      {
         message: "Please enter the engineer's email address.",
         name: "email"
       },
@@ -89,7 +97,7 @@ function addEngineer() {
     ])
     .then(function(data) {
       const name = data.name
-      const id = employees.length + 1
+      const id = data.id
       const email = data.email
       const github = data.github
       const teamMember = new Engineer(name, id, email, github)
@@ -104,6 +112,10 @@ function addIntern() {
         name: "name"
       },
       {
+        message: "Please enter the intern's ID number.",
+        name: "id"
+      },
+      {
         message: "Please enter the intern's email.",
         name: "email"
       },
@@ -114,7 +126,7 @@ function addIntern() {
     ])
     .then(function(data) {
       const name = data.name
-      const id = employees.length + 1
+      const id = data.id
       const email = data.email
       const school = data.school
       const teamMember = new Intern(name, id, email, school)
