@@ -11,7 +11,7 @@ This application is a back end application using Node.js. It uses the inquirer n
 - [Technologies](#technologies)
 - [Github](#github)
 - [Video](#video)
-- [Screenshots](#screenshots)
+- [Screenshot](#screenshot)
 
 
 ## Installation
@@ -32,4 +32,5 @@ After installation the user can run the app in the node environment using the co
 
 # Video
 
-## Screenshots
+## Screenshot
+<img width="1703" alt="auto-dev-team-generator-screenshot" src="https://user-images.githubusercontent.com/102756451/163695113-fe9ae84b-2d42-46c2-9add-d4e8d8f67345.png">
