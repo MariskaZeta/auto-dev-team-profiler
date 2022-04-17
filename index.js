@@ -1,3 +1,4 @@
+// Imports the required classes and dependencies
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
@@ -7,6 +8,7 @@ const style = require("./src/css")
 
 const employees = [];
 
+// Start function. Welcomes and asks for the team name.
 function init() {
   inquirer
     .prompt([{
@@ -20,6 +22,7 @@ function init() {
     })
 }
 
+// Questions for the Manager profile
 function addManager() {
   inquirer
     .prompt([{
@@ -52,6 +55,7 @@ function addManager() {
     });
 }
 
+// Function to add more team members or complete the team.
 function addDevs() {
   inquirer
     .prompt([{
@@ -76,6 +80,7 @@ function addDevs() {
     });
 }
 
+// Questions for the Engineer profile.
 function addEngineer() {
   inquirer
     .prompt([{
@@ -106,6 +111,7 @@ function addEngineer() {
     });
 };
 
+// Questions for the Intern profile.
 function addIntern() {
   inquirer.prompt([{
         message: "Please enter the intern's name.",
@@ -137,6 +143,7 @@ function addIntern() {
 
 function createTeam() {
 
+// the html template 
   const htmlArray = []
   const htmlBeginning = `<!DOCTYPE html>
 <html lang="en">
@@ -204,4 +211,5 @@ function createTeam() {
   })
 }
 
+// Initializes the application
 init();
