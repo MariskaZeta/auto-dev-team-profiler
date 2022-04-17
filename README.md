@@ -29,8 +29,17 @@ After installation the user can run the app in the node environment using the co
 * CSS
 
 ## Github
+Here is the link to the GitHub URL:
+https://github.com/MariskaZeta/auto-dev-team-profiler 
+</br>
+Here is the link to clone for the GitHub repository:
+https://github.com/MariskaZeta/auto-dev-team-profiler.git
+
+## Generated HTML file URL
+https://github.com/MariskaZeta/auto-dev-team-profiler/blob/main/dist/Dunder%20Mifflin.html
 
 # Video
+Here is the link to the video demonstration:
 https://drive.google.com/file/d/1IV5Qn3UAfv0NNHHoLNgtrUWwgo7FFF6G/view
 
 ## Screenshot
