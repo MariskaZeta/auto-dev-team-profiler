@@ -31,6 +31,7 @@ After installation the user can run the app in the node environment using the co
 ## Github
 
 # Video
+https://drive.google.com/file/d/1IV5Qn3UAfv0NNHHoLNgtrUWwgo7FFF6G/view
 
 ## Screenshot
 <img width="1703" alt="auto-dev-team-generator-screenshot" src="https://user-images.githubusercontent.com/102756451/163695113-fe9ae84b-2d42-46c2-9add-d4e8d8f67345.png">
